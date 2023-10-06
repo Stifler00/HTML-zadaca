@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype HTML>
 <html lang="hr">
     <head>
         <title> Zadatak 1</title>
