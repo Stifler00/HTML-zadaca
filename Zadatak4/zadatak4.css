@@ -1,0 +1,83 @@
+body, html {
+	font-family: "Gill Sans", sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.slika {
+	background-image: url("Slike/WP_Gloom-2560x1440_00000.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1d1212;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #1d1212;
+}
+
+main {
+    padding: 25px;
+}
+
+figure {
+    display: block;
+    width: fit-content;
+    float: left;
+}
+
+figure img {
+    max-width: 400px;
+}
+
+.clanak {
+    border: 1px solid #000;
+}
+
+footer {
+    background-color: #000;
+    text-align: left;
+    color: #fff;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.github {
+    width: 20px;
+    height: auto;
+}
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 50%;
+		float: none;
+	}
+    .clanak {
+        border: none;
+    }
+    figure img {
+        width: inherit;
+    }
+    footer {
+        text-align: center;
+    }
+}
